@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/calogo" />
+
+    <EditText
+        android:id="@+id/angka1"
+        android:layout_width="355dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/text"
+        android:hint="Angka 1"
+        android:padding="10dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/angka2"
+        android:layout_width="355dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/text"
+        android:hint="Angka 2"
+        android:padding="10dp"
+        android:inputType="number"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="355dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:entries="@array/spinner_options"
+        android:background="@drawable/text"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="355dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="Calculate"
+        android:textColor="#FDFDFD"
+        android:background="@drawable/text"
+        android:backgroundTint="#3F649C"/>
+
+    <TextView
+        android:id="@+id/txthasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:text="hasil:" />
+
+</LinearLayout>

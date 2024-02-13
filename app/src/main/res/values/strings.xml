@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Instagram2</string>
+    <string-array name="spinner_options">
+        <item>Tambah</item>
+        <item>Kurang</item>
+        <item>Kali</item>
+        <item>Bagi</item>
+    </string-array>
+
+
+</resources>
